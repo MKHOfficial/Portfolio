@@ -28,7 +28,7 @@ const Projects = () => {
       technologies: ['React', 'API Integration', 'Chart.js'],
       image: '/api/placeholder/400/250',
       liveLink: '#',
-      githubLink: '#'
+      githubLink: 'https://github.com/MKHOfficial/Mini-Projects/tree/main/Weather%20App%20using%20React'
     }
   ];
 
