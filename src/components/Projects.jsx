@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'A responsive weather application with location-based forecasts and interactive charts.',
       technologies: ['React', 'API Integration', 'Chart.js'],
-      image: 'MKHOfficial/Portfolio/src/assets/Weather Template.png',
+      image: '././public/WeatherTemplate.png',
       liveLink: '#',
       githubLink: 'https://github.com/MKHOfficial/Mini-Projects/tree/main/Weather%20App%20using%20React'
     }
