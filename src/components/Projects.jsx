@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-
+import WeatherTemplate from '../assets/WeatherTemplate.png';
 const Projects = () => {
   const projects = [
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'A responsive weather application with location-based forecasts and interactive charts.',
       technologies: ['React', 'API Integration'],
-      image: '/src/assets/Weather Template.png',
+      image: WeatherTemplate,
       liveLink: '#',
       githubLink: 'https://github.com/MKHOfficial/Mini-Projects/tree/main/Weather%20App%20using%20React'
     }
@@ -40,9 +40,13 @@ const Projects = () => {
           {projects.map(project => (
             <div key={project.id} className="project-card">
               <div className="project-image">
-                <div className="image-placeholder">
-                  <span>In Progress</span>
-                </div>
+                {project.image && project.image.startsWith('/') ? (
+                  <img src={project.image} alt={project.title} className="project-img" />
+                ) : (
+                  <div className="image-placeholder">
+                    <span>In Progress</span>
+                  </div>
+                )}
               </div>
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
