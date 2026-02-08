@@ -25,8 +25,8 @@ const Projects = () => {
       id: 3,
       title: 'Weather Dashboard',
       description: 'A responsive weather application with location-based forecasts and interactive charts.',
-      technologies: ['React', 'API Integration', 'Chart.js'],
-      image: '././public/WeatherTemplate.png',
+      technologies: ['React', 'API Integration'],
+      image: '/src/assets/Weather Template.png',
       liveLink: '#',
       githubLink: 'https://github.com/MKHOfficial/Mini-Projects/tree/main/Weather%20App%20using%20React'
     }
@@ -41,7 +41,7 @@ const Projects = () => {
             <div key={project.id} className="project-card">
               <div className="project-image">
                 <div className="image-placeholder">
-                  <span>In </span>
+                  <span>In Progress</span>
                 </div>
               </div>
               <div className="project-content">
