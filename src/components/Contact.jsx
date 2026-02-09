@@ -41,7 +41,7 @@ const Contact = () => {
               </div>
               <div className="contact-item">
                 <strong>Phone:</strong>
-                <a href="https://wa.me/12345678901" target="_blank">
+                <a href="https://wa.me/923412620877" target="_blank">
   Chat with me on WhatsApp
 </a>
               </div>
