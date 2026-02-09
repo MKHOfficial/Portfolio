@@ -5,12 +5,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Website',
-      description: 'A full-featured e-commerce platform with shopping cart, user authentication, and payment integration.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Nexus Business App',
+      description: 'Nexus Business App – A React-based platform connecting brokers and entrepreneurs with authentication, profiles, and role-based dashboards.',
+      technologies: ['React', 'Node.js'],
       image: '/api/placeholder/400/250',
       liveLink: '#',
-      githubLink: '#'
+      githubLink: 'https://github.com/MKHOfficial/Teacher-Appointment-Booking-System'
     },
     {
       id: 2,
