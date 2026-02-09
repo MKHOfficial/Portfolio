@@ -37,7 +37,8 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <strong>Email:</strong>
-                <span>kamranmughalpindi@gmail.com</span>
+                href="mailto:kamranmughalpindi@gmail.com?subject=Portfolio Inquiry&body=Hi Kamran, I visited your portfolio."
+
               </div>
               <div className="contact-item">
                 <strong>Phone:</strong>
