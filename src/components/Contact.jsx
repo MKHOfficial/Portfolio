@@ -37,13 +37,13 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <strong>Email:</strong>
-                href="mailto:kamranmughalpindi@gmail.com?subject=Portfolio Inquiry&body=Hi Kamran, I visited your portfolio."
-
+                <a href="mailto:kamranmughalpindi@gmail.com?subject=Portfolio Inquiry&body=Hi Kamran, I visited your portfolio."
+>kamranmughalpindi@gmail.com</a>
               </div>
               <div className="contact-item">
                 <strong>Phone:</strong>
                 <a href="https://wa.me/923412620877" target="_blank">
-  Chat with me on WhatsApp
+  +923412620877
 </a>
               </div>
               <div className="contact-item">
