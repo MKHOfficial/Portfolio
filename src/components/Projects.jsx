@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import WeatherTemplate from '../assets/WeatherTemplate.png';
+import Nexus from '../assets/Nexus.png';
 const Projects = () => {
   const projects = [
     {
@@ -8,16 +9,16 @@ const Projects = () => {
       title: 'Nexus Business App',
       description: 'Nexus Business App – A React-based platform connecting brokers and entrepreneurs with authentication, profiles, and role-based dashboards.',
       technologies: ['React', 'Node.js'],
-      image: '/api/placeholder/400/250',
-      liveLink: '#',
-      githubLink: 'https://github.com/MKHOfficial/Teacher-Appointment-Booking-System'
+      image: Nexus,
+      liveLink: 'https://nexus-business-app.vercel.app/',
+      githubLink: 'https://github.com/MKHOfficial/Nexus-Business-App'
     },
     {
       id: 2,
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates and drag-drop functionality.',
       technologies: ['React', 'Firebase', 'Material-UI'],
-      image: '/api/placeholder/400/250',
+      image: 'In Progress',
       liveLink: '#',
       githubLink: '#'
     },
@@ -27,7 +28,7 @@ const Projects = () => {
       description: 'A responsive weather application with location-based forecasts and interactive charts.',
       technologies: ['React', 'API Integration'],
       image: WeatherTemplate,
-      liveLink: '#',
+      liveLink: 'https://city-weather-app-roan.vercel.app/',
       githubLink: 'https://github.com/MKHOfficial/Mini-Projects/tree/main/Weather%20App%20using%20React'
     }
   ];
